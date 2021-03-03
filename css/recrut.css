@@ -1,0 +1,159 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+
+.content{
+    background-color:#D92950 ;
+}
+
+#part1{
+    display: flex;
+    position: fixed;
+    background-color: #D92950;
+    padding: 8px 16px;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+}
+
+.logo{
+    margin: 10px auto;
+}
+
+.logo img{
+    width: 100px;
+    height: 58px;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 0px 8px;
+    margin-right: 20px;
+    justify-content: baseline;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: none;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #ff046b;
+}
+
+.content{
+    background-color: #ffffff;
+    flex-direction: column;
+
+
+}
+
+
+.recrutement{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding-top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #111111;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 48px;
+    margin: 0px 0px 50px;
+}
+
+#h2-except{
+    color: #ffffff;
+    margin: 0px 0px 50px;
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 1170;
+    text-align: center;
+}
+
+
+
+
+
+h3{
+    line-height: 1.2;
+}
+
+#profil{
+    display: flex;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+    margin: 0px 0px 32px;
+    justify-content: center;
+}
+
+.marketeur , .developpeur{
+    background-color: #F1F0F3;
+    margin: Opx 5px 5px;
+    border-radius: 10px;
+    width: 570px;
+    height: 1120px;
+    line-height: 1.5;
+}
+
+h3{
+    line-height: 1.2;
+}
+
+#formulaire{
+    background: #1d1b25;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+#type-demande{
+    display: flex;
+    flex-direction: column;
+}
+
+#profil p{
+    0px 0px 16px
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 25px;
+    line-height: 10px;
+    marg
+  }
+
+  .basic{
+      list-style-type: none;
+  }
